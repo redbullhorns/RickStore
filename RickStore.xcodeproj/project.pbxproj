@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BED67D302054CF9100A05310 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BED67D2F2054CF9100A05310 /* AppDelegate.m */; };
+		BED67D332054CF9100A05310 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BED67D322054CF9100A05310 /* ViewController.m */; };
+		BED67D362054CF9100A05310 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED67D342054CF9100A05310 /* Main.storyboard */; };
+		BED67D392054CF9200A05310 /* RickStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BED67D372054CF9100A05310 /* RickStore.xcdatamodeld */; };
+		BED67D3B2054CF9200A05310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED67D3A2054CF9200A05310 /* Assets.xcassets */; };
+		BED67D3E2054CF9200A05310 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED67D3C2054CF9200A05310 /* LaunchScreen.storyboard */; };
+		BED67D412054CF9200A05310 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BED67D402054CF9200A05310 /* main.m */; };
+		BED67D4B2054CF9200A05310 /* RickStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BED67D4A2054CF9200A05310 /* RickStoreTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BED67D472054CF9200A05310 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BED67D232054CF9100A05310 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED67D2A2054CF9100A05310;
+			remoteInfo = RickStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BED67D2B2054CF9100A05310 /* RickStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED67D2E2054CF9100A05310 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BED67D2F2054CF9100A05310 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BED67D312054CF9100A05310 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BED67D322054CF9100A05310 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BED67D352054CF9100A05310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BED67D382054CF9100A05310 /* RickStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RickStore.xcdatamodel; sourceTree = "<group>"; };
+		BED67D3A2054CF9200A05310 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BED67D3D2054CF9200A05310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BED67D3F2054CF9200A05310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED67D402054CF9200A05310 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BED67D462054CF9200A05310 /* RickStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED67D4A2054CF9200A05310 /* RickStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RickStoreTests.m; sourceTree = "<group>"; };
+		BED67D4C2054CF9200A05310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BED67D282054CF9100A05310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED67D432054CF9200A05310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BED67D222054CF9100A05310 = {
+			isa = PBXGroup;
+			children = (
+				BED67D2D2054CF9100A05310 /* RickStore */,
+				BED67D492054CF9200A05310 /* RickStoreTests */,
+				BED67D2C2054CF9100A05310 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BED67D2C2054CF9100A05310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BED67D2B2054CF9100A05310 /* RickStore.app */,
+				BED67D462054CF9200A05310 /* RickStoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BED67D2D2054CF9100A05310 /* RickStore */ = {
+			isa = PBXGroup;
+			children = (
+				BED67D2E2054CF9100A05310 /* AppDelegate.h */,
+				BED67D2F2054CF9100A05310 /* AppDelegate.m */,
+				BED67D312054CF9100A05310 /* ViewController.h */,
+				BED67D322054CF9100A05310 /* ViewController.m */,
+				BED67D342054CF9100A05310 /* Main.storyboard */,
+				BED67D3A2054CF9200A05310 /* Assets.xcassets */,
+				BED67D3C2054CF9200A05310 /* LaunchScreen.storyboard */,
+				BED67D3F2054CF9200A05310 /* Info.plist */,
+				BED67D402054CF9200A05310 /* main.m */,
+				BED67D372054CF9100A05310 /* RickStore.xcdatamodeld */,
+			);
+			path = RickStore;
+			sourceTree = "<group>";
+		};
+		BED67D492054CF9200A05310 /* RickStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				BED67D4A2054CF9200A05310 /* RickStoreTests.m */,
+				BED67D4C2054CF9200A05310 /* Info.plist */,
+			);
+			path = RickStoreTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BED67D2A2054CF9100A05310 /* RickStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED67D4F2054CF9200A05310 /* Build configuration list for PBXNativeTarget "RickStore" */;
+			buildPhases = (
+				BED67D272054CF9100A05310 /* Sources */,
+				BED67D282054CF9100A05310 /* Frameworks */,
+				BED67D292054CF9100A05310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RickStore;
+			productName = RickStore;
+			productReference = BED67D2B2054CF9100A05310 /* RickStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BED67D452054CF9200A05310 /* RickStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED67D522054CF9200A05310 /* Build configuration list for PBXNativeTarget "RickStoreTests" */;
+			buildPhases = (
+				BED67D422054CF9200A05310 /* Sources */,
+				BED67D432054CF9200A05310 /* Frameworks */,
+				BED67D442054CF9200A05310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BED67D482054CF9200A05310 /* PBXTargetDependency */,
+			);
+			name = RickStoreTests;
+			productName = RickStoreTests;
+			productReference = BED67D462054CF9200A05310 /* RickStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BED67D232054CF9100A05310 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.codeinobjc;
+				TargetAttributes = {
+					BED67D2A2054CF9100A05310 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BED67D452054CF9200A05310 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BED67D2A2054CF9100A05310;
+					};
+				};
+			};
+			buildConfigurationList = BED67D262054CF9100A05310 /* Build configuration list for PBXProject "RickStore" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BED67D222054CF9100A05310;
+			productRefGroup = BED67D2C2054CF9100A05310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BED67D2A2054CF9100A05310 /* RickStore */,
+				BED67D452054CF9200A05310 /* RickStoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BED67D292054CF9100A05310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED67D3E2054CF9200A05310 /* LaunchScreen.storyboard in Resources */,
+				BED67D3B2054CF9200A05310 /* Assets.xcassets in Resources */,
+				BED67D362054CF9100A05310 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED67D442054CF9200A05310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BED67D272054CF9100A05310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED67D332054CF9100A05310 /* ViewController.m in Sources */,
+				BED67D302054CF9100A05310 /* AppDelegate.m in Sources */,
+				BED67D412054CF9200A05310 /* main.m in Sources */,
+				BED67D392054CF9200A05310 /* RickStore.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED67D422054CF9200A05310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED67D4B2054CF9200A05310 /* RickStoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BED67D482054CF9200A05310 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BED67D2A2054CF9100A05310 /* RickStore */;
+			targetProxy = BED67D472054CF9200A05310 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BED67D342054CF9100A05310 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BED67D352054CF9100A05310 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BED67D3C2054CF9200A05310 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BED67D3D2054CF9200A05310 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BED67D4D2054CF9200A05310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BED67D4E2054CF9200A05310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BED67D502054CF9200A05310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 672A4UZS4G;
+				INFOPLIST_FILE = RickStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RS.RickStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BED67D512054CF9200A05310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 672A4UZS4G;
+				INFOPLIST_FILE = RickStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RS.RickStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BED67D532054CF9200A05310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 672A4UZS4G;
+				INFOPLIST_FILE = RickStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RS.RickStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RickStore.app/RickStore";
+			};
+			name = Debug;
+		};
+		BED67D542054CF9200A05310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 672A4UZS4G;
+				INFOPLIST_FILE = RickStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RS.RickStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RickStore.app/RickStore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BED67D262054CF9100A05310 /* Build configuration list for PBXProject "RickStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED67D4D2054CF9200A05310 /* Debug */,
+				BED67D4E2054CF9200A05310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED67D4F2054CF9200A05310 /* Build configuration list for PBXNativeTarget "RickStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED67D502054CF9200A05310 /* Debug */,
+				BED67D512054CF9200A05310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED67D522054CF9200A05310 /* Build configuration list for PBXNativeTarget "RickStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED67D532054CF9200A05310 /* Debug */,
+				BED67D542054CF9200A05310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BED67D372054CF9100A05310 /* RickStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BED67D382054CF9100A05310 /* RickStore.xcdatamodel */,
+			);
+			currentVersion = BED67D382054CF9100A05310 /* RickStore.xcdatamodel */;
+			path = RickStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BED67D232054CF9100A05310 /* Project object */;
+}
